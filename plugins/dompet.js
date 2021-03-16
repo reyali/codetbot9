@@ -20,7 +20,7 @@ if (satu === dua && dua === tiga)
 🏆 Leaderboard/level: *Kamu berada diposisi ${usersExp.indexOf(m.sender) + 1}* dari *${usersExp.length}*
 
 Note: Perhitungan Exp ke coin adalah 
-350 Exp = 1 Coin
+100 Exp = 1 Coin
 
 `)
 	
