@@ -192,7 +192,7 @@ module.exports = {
             }
           } finally {
             // m.reply(util.format(_user)) 
-            if (m.limit) m.reply(+ m.limit + ' 1 Coin terpakai❗')
+            if (m.limit) m.reply(+ m.limit + ' Coin terpakai❗')
           }
     			break
   	  	}
