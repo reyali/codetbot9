@@ -28,7 +28,7 @@ Ketik *#helpdownload*
 Untuk menu *[ Fun ]*
 Ketik *#helpfun*
 
-Untuk menu *[ Exp & Limit ]*
+Untuk menu *[ Exp & Coin ]*
 Ketik *#helpexp*
 
 
