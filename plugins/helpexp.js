@@ -6,7 +6,7 @@ Apa itu exp? Exp di sini  sebut saja uang virtual kamu. Fungsinya apa ni? Fungin
 Apa itu Coin? Coin di sini di gunakan untuk mengakses fitur yang di batasi. 
 1 kali pemakaian fitur yang di batasi, Coin kamu akan berkurang 1. 
 
-Perhutungan nya adalah: 350Exp = 1 Coin
+Perhutungan nya adalah: 100Exp = 1 Coin
 
 Sejak pemakaian bot kamu akan di beri 1000 Exp Dan 10 Coin.
 
