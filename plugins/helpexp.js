@@ -2,19 +2,19 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
   conn.reply(m.chat, `
   *[ Exp & Limit ]*
 
-Apa itu exp? Exp di sini adalah sebut saja uang virtual kamu atau coin virtual kamu. Fungsinya apa ni? Funginya adalah untuk membeli limit.
-Apa itu limit? Limit di sini di gunakan untuk mengakses fitur yang di batasi. 
-1 kali pemakaian fitur yang di batasi, Limit kamu akan berkurang 1. 
+Apa itu exp? Exp di sini  sebut saja uang virtual kamu. Fungsinya apa ni? Funginya adalah untuk menukar ke dalam coin.
+Apa itu Coin? Coin di sini di gunakan untuk mengakses fitur yang di batasi. 
+1 kali pemakaian fitur yang di batasi, Coin kamu akan berkurang 1. 
 
-Perhutungan nya adalah: 350Exp = 1 Limit
+Perhutungan nya adalah: 350Exp = 1 Coin
 
-Sejak pemakaian bot kamu akan di beri 1000 Exp Dan 10 limit
+Sejak pemakaian bot kamu akan di beri 1000 Exp Dan 10 Coin.
 
-Bagaimana kalau limit saya habis?
-Kamu bisa membeli atau menukar limit dengan Exp yang kamu punya.
+Bagaimana kalau Coin saya habis?
+Kamu bisa membeli atau menukar Coin dengan Exp yang kamu punya.
 
 Bagaimana cara nya ? 
-Caranya ketik perintah *#buy* jumlah limit. Atau langsung *#buyall* untuk membeli atau menukar semua exp kamu ke dalam limit.
+Caranya ketik perintah *#buy* jumlah Coin, Atau langsung *#buyall* untuk membeli atau menukar semua exp kamu ke dalam Coin.
 Contoh: *#buy 3* atau *#buyall* 
 
 Bagaimana kalau Exp saya Habis?
@@ -22,8 +22,10 @@ Kamu bisa claim harian Exp kamu.
 Cara claim nya dengan mengetik perintah *#claim*
 
 Bagaimana jika claim harian sudah saya ambil dan tidak bisa mengklaim Exp lagi?
-Kamu hubungi *owner bot* untuk menambah Exp dan menukar nya ke Limit.
+Kamu hubungi *owner bot* untuk menambah Exp Agar Bisa membeli coin.
 Cara menghubungi owner kamu cukup ketik perintah *#owner* maka bot akan mengirimkan Kontak *Owner*.
+lalu Kamu chat ownernya. Utamakan Salam
+P= Anak Dajjal :v
 
 
 
