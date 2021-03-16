@@ -130,7 +130,7 @@ handler.help = ['menu','help','?']
 handler.tags = ['main']
 handler.command = /^(menu)$/i
 module.exports = handler  
-
+handler.register = true
 
 
 
