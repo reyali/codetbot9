@@ -14,7 +14,7 @@ if (satu === dua && dua === tiga)
 	await m.reply(`╭─ ➡️*DOMPET*
 ┃
 ├─ ✅ Nama: *${name}*
-├─ ✅ Exp Kamu: ${exp}* Exp
+├─ ✅ Exp Kamu: *${exp}* Exp
 ├─ ✅ Coin Kamu: *${limit}* Coin
 ┗━ 
 🏆 Leaderboard/level: *Kamu berada diposisi ${usersExp.indexOf(m.sender) + 1}* dari *${usersExp.length}*
