@@ -1,6 +1,8 @@
 let fetch = require('node-fetch')
 let split = '|'
 let handler = async (m, { conn, args: [effect], text: txt }) => {
+  conn.fakeReply(m.chat, '*Silahkan tunggu sambil ngopi*☕','0@s.whatsapp.net',
+'Sedang memuat gambar...')
   let { effects } = await (await (fetch(global.API('xteam', '/textpro')))).json()
   if (!effect) throw '*List Effect*\n\n' + effects.sort((a, b) => a - b).join('\n')
   effect = effect.toLowerCase()
@@ -18,6 +20,7 @@ let handler = async (m, { conn, args: [effect], text: txt }) => {
 handler.help = ['textpro'].map(v => v + ' <effect> <text>|[text2]')
 handler.tags = ['tools']
 handler.command = /^(textpro)$/i
+handler.limit = true
 
 module.exports = handler
 
