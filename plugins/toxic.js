@@ -1,4 +1,4 @@
-const xpperlimit = 99999999999999999999999
+const xpperlimit = 10000
 let handler = async (m, { conn, command, args }) => {
   let count = command.replace(/^ontol|ntl|eler|elr|bi|abi|jg|nijing|njim|jinc|eki|emek|mk|ngsat|gst|ngsad|gsd|ncok|tod|td|ingan|gn|blok|lk|ego|egok$/i, '')
   count = count ? /all/i.test(count) ? Math.floor(global.DATABASE._data.users[m.sender].exp / xpperlimit) : parseInt(count) : args[0] ? parseInt(args[0]) : 1
