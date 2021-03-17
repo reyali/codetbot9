@@ -247,7 +247,7 @@ module.exports = {
       } catch (e) {
       } finally {
         let text = (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@user', '@' + user.split('@')[0]).replace('@subject', this.getName(m.key.remoteJid))
-        this.reply(m.key.remoteJid,text,m, false, {
+        this.sendFile(m.key.remoteJid, pp, 'pp.jpg', text, m, false, {
           contextInfo: {
             mentionedJid: [user]
           }
@@ -266,7 +266,7 @@ module.exports = {
       } catch (e) {
       } finally {
         let text = (chat.sBye || this.bye || conn.bye || 'Bye, @user!').replace('@user', '@' + user.split('@')[0])
-        this.reply(m.key.remoteJid,text, m, false, {
+        this.sendFile(m.key.remoteJid, pp, 'pp.jpg', text, m, false, {
           contextInfo: {
             mentionedJid: [user]
           }
