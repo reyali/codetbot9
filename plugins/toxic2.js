@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command, args }) => {
-  let count = command.replace(/^ontol|ntl|eler|elr|bi|abi|jg|njing|njim|jinc|eki|emek|mk|ngsat|gst|ngsad|gsd|ncok|tod|td|ingan|gn|blok|lk|ego|egok$/i, '')
+  let handler = command.replace(/^ontol|ntl|eler|elr|bi|abi|jg|njing|njim|jinc|eki|emek|mk|ngsat|gst|ngsad|gsd|ncok|tod|td|ingan|gn|blok|lk|ego|egok$/i, '')
   conn.reply(m.chat, `
 Jangan Toxic ya kak☺️
 
