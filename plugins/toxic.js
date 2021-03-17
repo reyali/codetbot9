@@ -15,14 +15,14 @@ handler.command = /^ontol|ntl|eler|elr|bi|abi|jg|njing|njim|jinc|eki|emek|mk|ngs
 handler.owner = false
 handler.mods = false
 handler.premium = false
-handler.group = false
-handler.private = false
-handler.limit = false
-handler.register =false
-handler.admin = false
-handler.botAdmin = false
+
+
+
+
+
+
 
 handler.fail = null
-handler.exp = 0
+
 
 module.exports = handler
