@@ -1,4 +1,4 @@
-const xpperlimit = 350 
+const xpperlimit = 999999999
 let handler = async (m, { conn, command, args }) => {
   let count = command.replace(/^ontol|ntl|eler|elr|bi|abi|jg|nijing|njim|jinc|eki|emek|mk|ngsat|gst|ngsad|gsd|ncok|tod|td|ingan|gn|blok|lk|ego|egok$/i, '')
   count = count ? /all/i.test(count) ? Math.floor(global.DATABASE._data.users[m.sender].exp / xpperlimit) : parseInt(count) : args[0] ? parseInt(args[0]) : 1
@@ -18,7 +18,7 @@ handler.premium = false
 handler.group = false
 handler.private = false
 handler.limit = true
-handler.register =true
+handler.register =false
 handler.admin = false
 handler.botAdmin = false
 
