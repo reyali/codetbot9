@@ -7,7 +7,7 @@ let handler = async (m, { text }) => {
 }
 handler.help = ['simi', 'simsimi', 'simih'].map(v => v + ' <teks>')
 handler.tags = ['fun']
-handler.command = /^dady|dad|sugar)$/i
+handler.command = /^dady|dad|sugar$/i
 
 module.exports = handler
 
