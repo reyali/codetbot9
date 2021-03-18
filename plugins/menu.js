@@ -114,7 +114,8 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).join`|`})`, 'g'), (_, name) => replace[name])
-    conconn.fakeReply(m.chat, text,'0@s.whatsapp.net','Hai ' + name ')
+    conn.fakeReply(m.chat, '*Hai %name*☕','0@s.whatsapp.net'
+
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
