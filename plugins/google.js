@@ -25,6 +25,7 @@ handler.private = false
 
 handler.admin = false
 handler.botAdmin = false
+hanler.limit = true
 
 handler.fail = null
 
