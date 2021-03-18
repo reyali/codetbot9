@@ -12,6 +12,10 @@ Perintah Bot ini menggunakan *#* *!* Atau *.*
 Ingat Selalu menggunakan *#* *!* Atau *.* Dalam setiap Perintah.
 
 Jika kamu ingin mengakses menu kamu bisa mengetik perintah dengan ketik #menu atau #menu atau .menu.
+
+*BACA RULES TERLEBIH DAHULU* Agar kamu tau syarat dan ketentuan Bot kami.
+ketik *#rules* 
+
 Jika kamu Paham cara menggunakan Bot ini, Dan Sudah Mendaftar,
 Silahkan menuju ke *#menu* 
 Silahkan ketik *#menu*
