@@ -4,6 +4,10 @@ let path = require('path')
 
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 	
+	let pp = './src/avatar_contact.png'
+  let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+  try {
+    pp = await conn.getProfilePicture(who)
   try {
   	
     let package = JSON.parse(fs.readFileSync(path.join(__dirname, '../package.json')))
