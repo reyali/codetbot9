@@ -81,19 +81,19 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     conn.menu = conn.menu ? conn.menu : {}
     let before = conn.menu.before || `*${conn.user.name}*
  
-•› * SugarDady -BOT *
+â€¢â€º *${conn.getName(conn.user.jid)}*
 
    Hi  *%name* 
  *Exp Kamu       :* %exp Exp
  *Coin Kamu      :* %limit Coin
-•›
-•›
+â€¢â€º
+â€¢â€º
  *Hari            :* %week %weton
  *Tanggal     :* %date
  *Waktu        :* %time
  *Database  :* %totalreg Pengguna
  *Bot Online :* %uptime
-•›
+â€¢â€º
  Semua Perintah Di Awali Dengan *#* / *!*.
  Daftar Perintah:
 
@@ -127,7 +127,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     
     text = text.replace(new RegExp(`%(${Object.keys(replace).join`|`})`, 'g'), (_, name) => replace[name])
   
-    conn.fakeReply(m.chat, text,'0@s.whatsapp.net','Hai ' + name + ' ðŸ‘‹','6281649149118-1611552970@g.us')
+    conn.fakeReply(m.chat, text,'0@s.whatsapp.net','Hai ' + name + ' Ã°Å¸â€˜â€¹','6281649149118-1611552970@g.us')
     
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
