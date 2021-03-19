@@ -1,6 +1,6 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   conn.reply(m.chat, `
-  *[ Exp & Limit ]*
+  *[ Exp & Coin ]*
 
 Apa itu exp? Exp di sini  sebut saja uang virtual kamu. Fungsinya apa ni? Funginya adalah untuk menukar ke dalam coin.
 Apa itu Coin? Coin di sini di gunakan untuk mengakses fitur yang di batasi. 
