@@ -1,7 +1,7 @@
 let handler = async function(m, { conn ,participants}) {
 let user = m.sender
 
-  conn.reply(m.chat, `[ *Grup Link Detected* ] _Hmmm Sudah Ku Bilang. Jangan Kirim Link Groub Whatasapp!_\n\n_Dah lah:)_\n\n*Babay*....`, m)
+  conn.reply(m.chat, `[ *Grup Link Detected* ] _Hmmm Sudah Ku Bilang. Jangan Kirim Link Groub Whatsapp!_\n\n_Dah lah:)_\n\n*Babay*....`, m)
 await conn.groupRemove(m.chat, [user])
 }
  
