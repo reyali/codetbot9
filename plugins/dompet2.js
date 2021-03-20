@@ -15,7 +15,7 @@ let handler = async (m, { conn }) => {
 	await m.reply(`╭─ ➡️*DOMPET*
 ┃
 ├─ ✅ Username: ${username}
-├─ ✅ Number: ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
+
 ├─ ✅ Nama: *${name}*
 ├─ ✅ Status: ${registred}
 ├─ ✅ Exp Kamu: *${exp}* Exp
