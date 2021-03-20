@@ -14,8 +14,8 @@ let handler = async (m, { conn }) => {
 Name: ${username} ${registered ? '(' + name + ') ': ''}(@${who.replace(/@.+/, '')})${about ? '\nAbout: ' + about : ''}
 Number: ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
 Link: https://wa.me/${who.split`@`[0]}${registered ? '\nAge: ' + age : ''}
-XP: %exp Exp
-Coin: %exp Coin
+XP: *${exp}* Exp
+Coin: *${limit}* Coin
 Registered: ${registered ? 'Yes (' + new Date(regTime) + ')': 'No'}${lastclaim > 0 ? '\nLast Claim: ' + new Date(lastclaim) : ''}
 `.trim()
     let mentionedJid = [who]
