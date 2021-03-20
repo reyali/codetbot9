@@ -5,17 +5,13 @@ let handler = async (m, { text }) => {
 	let usersExp = sortedExp.map(v => v[0])
 	let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
   if (user.registered === false) throw `Kamu Belum Terdaftar, Silahkan Daftar.\nKetik *#daftar nama.umur*`
-count = Math.floor(Math.random() * 20000) +1
-  buah = ['✅','✅',] // Versi Simpel
-          satu = buah[Math.floor(Math.random() * (buah.length))]	
-          dua = buah[Math.floor(Math.random() * (buah.length))]	
-          tiga = buah[Math.floor(Math.random() * (buah.length))]	
-if (satu === dua && dua === tiga)
+  
+
 	await m.reply(`╭─ ➡️*DOMPET*
 ┃
 ├─ ✅ Nama: *${name}*
-├─ ✅ Exp Kamu: *${exp}* Exp
-├─ ✅ Coin Kamu: *${limit}* Coin
+├─ ✅ Exp Kamu: *%exp* Exp
+├─ ✅ Coin Kamu: *%Limit* Coin
 ┗━ 
 🏆 Leaderboard/level: *Kamu berada diposisi ${usersExp.indexOf(m.sender) + 1}* dari *${usersExp.length}*
 
