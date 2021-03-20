@@ -4,7 +4,7 @@ let handler = async (m, { text }) => {
 	  let sortedExp = Object.entries(global.DATABASE.data.users).sort((a, b) => b[1].exp - a[1].exp)
 	let usersExp = sortedExp.map(v => v[0])
 	let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-  if (user.registered === false) throw `Lu blm daftar bego ketik #daftar dulu`
+  if (user.registered === false) throw `Kamu belum terdaftar!\nUntuk Mendaftar Silahkan ketik\n*#daftar nama.umur*
 count = Math.floor(Math.random() * 20000) +1
   buah = ['✅','✅',] // Versi Simpel
           satu = buah[Math.floor(Math.random() * (buah.length))]	
