@@ -11,7 +11,7 @@ count = Math.floor(Math.random() * 20000) +1
           dua = buah[Math.floor(Math.random() * (buah.length))]	
           tiga = buah[Math.floor(Math.random() * (buah.length))]	
 if (satu === dua && dua === tiga)
-	await m.reply(`╭─ ✅ *Dompet ${nam
+	await m.reply(`╭─ ✅ *Dompet ${name}*
 ┃
 ├─ ➡️ Nama: *${name}*
 ├─ ➡️ Exp  : *${exp}* Exp
@@ -37,5 +37,5 @@ handler.admin = false
 handler.botAdmin = false
 
 handler.fail = null
-handler.limit = true
+handler.limit = false
 module.exports = handler  
