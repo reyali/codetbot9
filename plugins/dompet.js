@@ -10,8 +10,8 @@ let handler = async (m, { text }) => {
 	await m.reply(`╭─ ➡️*DOMPET*
 ┃
 ├─ ✅ Nama: *${name}*
-├─ ✅ Exp Kamu: *%exp* Exp
-├─ ✅ Coin Kamu: *%Limit* Coin
+├─ ✅ Exp Kamu: *${exp}* Exp
+├─ ✅ Coin Kamu: *${limit}* Coin
 ┗━ 
 🏆 Leaderboard/level: *Kamu berada diposisi ${usersExp.indexOf(m.sender) + 1}* dari *${usersExp.length}*
 
